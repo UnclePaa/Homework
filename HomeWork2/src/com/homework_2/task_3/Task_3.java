@@ -8,10 +8,10 @@ public class Task_3 {
         int sum = 0;
 
         for (plusNumber = 1; plusNumber <= 256; plusNumber*=2) {
-            sum+=plusNumber;}
+            sum+=plusNumber;} // { <- на новую строку
 
                 System.out.println(+sum);
-
-
+// пробел не нужен
+// пробел не нужен
     }
 }
