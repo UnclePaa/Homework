@@ -2,7 +2,7 @@ package com.homework_2.task_2;
 
 public class Task_2 {
     public static void main (String[] args) {
-
+// пробел не нужен
         int coop = 1;
         int hour = 0;
 
@@ -12,5 +12,5 @@ public class Task_2 {
                 hour+=3;
         } while (hour >= 3 && hour <=24);
     }
-
+// пробел не нужен
 }
