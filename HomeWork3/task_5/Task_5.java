@@ -2,7 +2,9 @@ package home_work_3.task_5;
 
 import java.util.Arrays;
 import java.util.Random;
+// Везде используй метод length длины массива. Никогда не используй фикс числа для таких целей.
 
+// Заполнить оба массива можно в одном цикле и сразу же считать среднее.
 public class Task_5 {
     public static void main(String[] args) {
         int[] arrayOne = new int[5];
@@ -17,6 +19,7 @@ public class Task_5 {
             String strOne = Arrays.toString(arrayOne);
             System.out.println(strOne);
             {
+                // arrayTwo.length
                 while (j < 5) {
                     arrayTwo[j] = (int) (Math.random() * 15);
                     j++;
