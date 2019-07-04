@@ -7,6 +7,7 @@ public class Task_4 {
     public static void main(String[] args) {
         int[] arrayRandom = new int[20];
         int i = 0;
+        // arrayRandom.length
         while (i < 20) {
             arrayRandom[i] = (int) (Math.random() * 99);
             i++;
@@ -16,10 +17,13 @@ public class Task_4 {
         System.out.println("");
 
         {
+            // arrayRandom.length
             for (i = 0; i < 20; i++) {
                 System.out.print(arrayRandom[i] + " ");
             }
             System.out.println("");
+            
+            // arrayRandom.length
             for (i = 0; i < 20; i++) {
                 if (arrayRandom[i] % 2 == 1) {
                     arrayRandom[i] = 0;

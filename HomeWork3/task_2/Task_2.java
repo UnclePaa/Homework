@@ -15,12 +15,14 @@ public class Task_2 {
         }
 
         String total = Arrays.toString(newArray);
-        System.out.println(total);//для проверки корректности создания массива
+        System.out.println(total);//для проверки корректности создания массива <- этот комментарий не нужен
 
+        // newArray.length
         for (i = 0; i <= 49; i++) {
             System.out.print(newArray[i] + " ");
         }
         System.out.println("");
+        // for (int i = newArray.length-1; i >= 0; i--)
         for (i = 49; i <= 49 & i >= 1; i--) {
 
             System.out.print(newArray[i] + " ");
