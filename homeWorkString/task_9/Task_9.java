@@ -9,6 +9,6 @@ public class Task_9 {
                 System.out.println(i);
             }
         }
-
+// пустая строка
     }
 }
