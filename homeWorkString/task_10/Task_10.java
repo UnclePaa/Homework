@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task_10 {
     public static void main(String[] args) {
+        // одного сканнера вполне достаточно
         Scanner firstWord = new Scanner(System.in);
         Scanner secondWord = new Scanner(System.in);
         System.out.println("Введите первое слово с четным количеством символов");
