@@ -19,6 +19,8 @@ public class Task_2 {
             System.out.println("File not found");
         } catch (IOException ioException) {
             System.out.println("IO Exception");
+            // вообще отлавливать такие ошибки можно, но не хорошо. 
+            // Для таких случаев в приложении обычно есть глобальный перехватчик, чтобы пользователь не увидел всю ошибку
         } catch (OutOfMemoryError outOfMemory) {
             System.out.println("Out of memory");
         }
