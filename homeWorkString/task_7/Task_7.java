@@ -4,6 +4,8 @@ import java.util.Date;
 
 public class Task_7 {
     public static void main(String[] args) {
+        // что такое forString? нужно другое имя
+        // не ошибка, но как вариант System.currentTimeMillis()
         Date forString = new Date();
         long forStringCurrent = forString.getTime();
         String stringTest = "La";
@@ -15,10 +17,13 @@ public class Task_7 {
 
         System.out.println("Для \"String\" процесс присоединения строк занял " + (forStringLatest - forStringCurrent) + " м/сек.");
 
+        // зачем еще один такой же объект? метод getTime() можно вызвать и у первого
         Date forStringBuilder = new Date();
         long forStringBuilderCurrent = forStringBuilder.getTime();
         StringBuilder stringForStrBldr = new StringBuilder("La");
         String stringBuilderTest = " La ";
+        
+        // 10000 - вынеси в отдельную переменную. 
         for (int j = 0; j < 10000; j++) {
             stringForStrBldr.append(stringBuilderTest);
         }

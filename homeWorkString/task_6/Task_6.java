@@ -1,5 +1,6 @@
 package com.pickles.homeWorkString.task_6;
 
+// попробуй решить задачу при помощи indexOf() со смешением. Тогда не понадобится дополнительный массив
 public class Task_6 {
     private static final String DELIMITER = " ";
 
@@ -15,8 +16,12 @@ public class Task_6 {
             int counter = 0;
             text = text.replace(".", " ");
 //            System.out.println(text);
+            
+            // плохое название переменной
             String[] array = text.split(" ");
 //            System.out.println(Arrays.toString(array));
+           
+            // плохое название переменной
             String[] array_2 = {"alert", "add", "good", "plan"};
 
 
