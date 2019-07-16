@@ -3,6 +3,7 @@ package com.pickles.practice_10.task_1;
 import java.io.*;
 import java.util.Arrays;
 
+// Выноси блоки кода в отдельные методы, например метод writeToFile(аргументы для метода) и т.д.
 public class Task_1 {
     private static final String FILE_PATH = "C:\\Users\\Tsyplik\\IdeaProjects\\Java-core\\src\\com\\pickles\\practice_10\\task_1\\enteredNumbers.txt";
 int u;
