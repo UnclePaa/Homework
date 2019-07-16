@@ -9,6 +9,7 @@ public class Employee implements Serializable {
     private int age;
     private Boolean work;
 
+    // думаю нам не нужен этот конструктор
     public Employee() {
     }
 
