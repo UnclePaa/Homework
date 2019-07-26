@@ -12,6 +12,18 @@ public class UserBuilder {
         User user1 = userBuilder.build(user);
 
         System.out.println(user1);
+        
+        /*
+        Чтобы не создавать новый интерфейс, можно сделать так
+        
+        Supplier<User> createUser = () -> {
+            Scanner userInput = new Scanner(System.in);
+            String user = userInput.nextLine();
+            return new User(user);
+        };
+        
+        createUser.get()
+        */
     }
 }
 
