@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+// придерживайся одного стиля в названия класса
 public class LinkedList_RemoveEvenNums {
     public static void main(String[] args) {
         List<Integer> intList = new LinkedList<>();
