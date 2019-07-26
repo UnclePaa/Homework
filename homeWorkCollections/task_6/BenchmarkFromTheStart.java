@@ -8,8 +8,11 @@ public class BenchmarkFromTheStart {
     public static void main(String[] args) {
         List<Integer> arrayList = new ArrayList<>(100_000);
         List<Integer> linkedList = new LinkedList<>();
+        
         fillArrayList(arrayList);
+         // название метода fillArrayList а передаешь LinkedList..., не очень
         fillArrayList(linkedList);
+       
         deleteFromTheMiddle(arrayList);
         deleteFromTheMiddle(linkedList);
     }
@@ -22,6 +25,7 @@ public class BenchmarkFromTheStart {
         }
     }
 
+     // название метода должно отражать то, что он делает. Т.е. просто удалил и все,  время замеряешь в мейне
     private static void deleteFromTheMiddle(List<Integer> listMiddleDelete) {
         long startTime = System.nanoTime();
         for (int i = 0; i < 100_000; i++) {
