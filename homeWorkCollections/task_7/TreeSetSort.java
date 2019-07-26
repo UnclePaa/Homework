@@ -18,11 +18,20 @@ public class TreeSetSort {
         simpleNumbers.add(93);
         System.out.println(simpleNumbers);
         reverseTreeSet(simpleNumbers);
+        
+        // simpleNumbers = reverseTreeSet(simpleNumbers);
     }
 
+    // anyIntSet - IntSet это видно из TreeSet<Integer>
     private static void reverseTreeSet(TreeSet<Integer> anyIntSet) {
         TreeSet<Integer> sortedNumbers;
         sortedNumbers = (TreeSet) anyIntSet.descendingSet();
         System.out.println(sortedNumbers);
     }
+    
+    /*
+    private static TreeSet<Integer> reverseTreeSet(TreeSet<Integer> anyIntSet) {
+        return (TreeSet<Integer>) anyIntSet.descendingSet();
+    }
+    */
 }
