@@ -1,5 +1,6 @@
 package com.pickles.practice_13.task_5;
-/* �� �������� */
+// это что?
+/* Íå ðàáîòàåò */
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -14,6 +15,7 @@ public class UserFilter {
         fillListOfNames(users);
         System.out.println("Users list before applying a filter: " + users);
 
+        // программа работает неверно, замени and на or.
         List<String> filteredList = listFilter(users, startsWithA.and(startsWithE.and(startsWithP)));
 
         System.out.println("Users list after applying a filter " + filteredList);
