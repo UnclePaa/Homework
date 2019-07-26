@@ -1,7 +1,8 @@
 package com.pickles.practice_13.task_6;
-/* �� �������� */
+/* Íå äîäåëàíî */
 //TODO
 public class Main {
+    // в отдельный файл
     private enum TypeOfMedal {
         GOLD,
         SILVER,
