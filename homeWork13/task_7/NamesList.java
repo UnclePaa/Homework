@@ -2,6 +2,7 @@ package com.pickles.practice_13.task_7;
 
 import java.util.List;
 
+// название класса NameList, но это совсем не лист
 public class NamesList {
     private String name;
     private int id;
