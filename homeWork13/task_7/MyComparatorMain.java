@@ -22,6 +22,11 @@ public class MyComparatorMain {
 
         compare(persons);
         List<String> comparedList = new LinkedList<>();
+        
+        /*
+        Comparator<String> descendingComparator = Comparator.reverseOrder();
+        comparedList.sort(descendingComparator);
+        */
         System.out.println(persons);
     }
 
