@@ -28,6 +28,7 @@ public class TheSameElemRemoval {
         System.out.println("The second list contains " + secondList);
     }
 
+    // метод remove не должен ничего выводить на экран, это не его задача
     private static void removeTheSame(List<String> firstList, List<String> secondList) {
         firstList.removeAll(secondList);
         System.out.println(firstList);
