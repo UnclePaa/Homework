@@ -16,5 +16,12 @@ public class IntMultiplicationMain {
         } catch (InputMismatchException inputMismatchException) {
             System.out.println("The entered data is not an integer");
         }
+        
+        /*
+        BinaryOperator<Integer> multiply = (x, y) -> x * y;
+        System.out.println(multiply.apply(2,5));
+        
+        внимательнее читай условие
+        */
     }
 }
