@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+//  В итоге должна получится HashMap<Boolean, List<Phone>>. 
+// .collect(Collectors.partitioningBy(phone -> логика_для_разделения);
 public class Task_9 {
     public static void main(String[] args) {
         List<Phone> phones = new ArrayList<>();
