@@ -3,6 +3,7 @@ package com.pickles.practice_12.task_8;
 import java.util.HashSet;
 import java.util.Objects;
 
+толь//+
 public class ShopsHashSet {
     public static void main(String[] args) {
         HashSet<Shop> shops = new HashSet<>();

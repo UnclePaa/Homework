@@ -23,6 +23,8 @@ public class Sportsman {
         return runSpeed;
     }
 
+    // fillMedalsList - ты этот аргумент не используешь в методе, зачем он здесь?
+    // сам метод ты тоже никак не используешь, удаляй
     private void medalsList (List <String> fillMedalsList, String resultingMedal) {
         medals = new LinkedList<>();
         medals.add(resultingMedal);

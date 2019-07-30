@@ -18,6 +18,7 @@ public class ShopWarehouse {
         System.out.println(goods);
     }
 
+    // localDateTime -> setArrivedTime
     public static void localDateTime(List<Product> goods) {
         for (int i = 0; i < goods.size(); i++) {
             Product product = goods.get(i);

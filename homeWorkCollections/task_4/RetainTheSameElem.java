@@ -28,6 +28,7 @@ public class RetainTheSameElem {
         System.out.println("The second list contains " + secondList);
     }
 
+    // печать листа надо убрать из метода,  здесь одна строчка, можно не выносить в отдельный
     private static void retainTheSame(List<String> firstList, List<String> secondList) {
         firstList.retainAll(secondList);
         System.out.println(firstList);
