@@ -14,6 +14,7 @@ public class Task_10 {
         phones.add(new Phone("Samsung", 4));
         phones.add(new Phone("Xiaomi", 7));
 
+        // не забывай удалять ненужное
         Map<ArrayList<String>, ArrayList<Integer>> phoneMap = new HashMap<>();
 
         Map<String, Integer> phoneHashMap = phones.stream()
