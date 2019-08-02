@@ -3,7 +3,7 @@ package com.pickles.practice_14.task_3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+// task_3 -> Task_3
 public class task_3 {
     public static void main(String[] args) {
         List<Phone> phones = new ArrayList<>();
@@ -16,6 +16,7 @@ public class task_3 {
 
         List<String> filteredByName = phones.stream()
                 .map(Phone::getName)
+           // Arrays.asList("Apple"...) и затем вызывай метод contains(phone) 
                 .filter(phone -> "Apple".equals(phone) || "Xiaomi".equals(phone) || "Samsung".equals(phone))
                 .collect(Collectors.toList());
 

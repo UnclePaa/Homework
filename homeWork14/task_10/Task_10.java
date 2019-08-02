@@ -14,9 +14,11 @@ public class Task_10 {
         phones.add(new Phone("Samsung", 4));
         phones.add(new Phone("Xiaomi", 7));
 
+        // не забывай удалять ненужное
         Map<ArrayList<String>, ArrayList<Integer>> phoneMap = new HashMap<>();
 
         Map<String, Integer> phoneHashMap = phones.stream()
+            // Collectors.summingInt(Phone::getPrice))); в качестве ключа. Попробуй добавить одинаковых и сумма с твоим вариантом не изменится
                 .collect(Collectors.toMap(Phone::getName, Phone::getQuantity));
 
         System.out.println(phoneHashMap);

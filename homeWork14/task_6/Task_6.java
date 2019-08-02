@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 public class Task_6 {
     public static void main(String[] args) {
+        // List<String> -> List<Phone>, переделай
         List<String> phones = Arrays.asList("Nokia", "Samsung", "Samsung", "Xiaomi", "Motorola", "Motorola", "Apple", "Apple");
 
         List<String> distinct = phones.stream()
