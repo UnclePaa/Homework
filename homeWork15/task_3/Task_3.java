@@ -26,6 +26,6 @@ public class Task_3 {
             return merged;
         }));
         System.out.println(secondMap);
-
+// пустая строка
     }
 }
