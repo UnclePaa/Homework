@@ -6,11 +6,17 @@ public class Man_Task_7 {
     private Long phoneNum;
 
     public Man_Task_7(String name, String surname) {
+        // this(name, surname, null)
+        
+        // дублирование
         this.name = name;
         this.surname = surname;
     }
 
     public Man_Task_7(String name, Long phoneNum) {
+        // this(name, null, phoneNum)
+        
+        // дублирование
         this.name = name;
         this.phoneNum = phoneNum;
     }
