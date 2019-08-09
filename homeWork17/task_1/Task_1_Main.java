@@ -6,5 +6,7 @@ public class Task_1_Main {
 
         Thread thread = new Thread(numIncrementor);
         thread.start();
+        
+        // thread.join
     }
 }
