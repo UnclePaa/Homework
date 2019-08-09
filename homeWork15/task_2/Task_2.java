@@ -4,12 +4,14 @@ import java.io.*;
 
 public class Task_2 implements Serializable {
     private static final String FIRST_FILE_PATH = "C:\\Users\\Tsyplik\\IdeaProjects\\Java-core\\src\\com\\pickles\\practice_15\\task_2\\TextFile.txt";
+    // NEW_FILE_PATH -> OUTPUT_FILE_PATH 
     private static final String NEW_FILE_PATH = "C:\\Users\\Tsyplik\\IdeaProjects\\Java-core\\src\\com\\pickles\\practice_15\\task_2\\NewTextFile.txt";
 
     public static void main(String[] args) {
         onlyPancakes(FIRST_FILE_PATH, NEW_FILE_PATH);
     }
 
+    // onlyPancakes слишком специализированный метод. Добавь аргументом еще слово для поиска и метод станет универсальным
     private static void onlyPancakes(String originalFile, String output) {
         try (FileReader fileReader = new FileReader(originalFile);
              BufferedReader bufferedReader = new BufferedReader(fileReader);

@@ -14,6 +14,7 @@ public class Task_6 {
     }
 
     private static int[] mergedAndSortedArray(int[] arr1, int[] arr2) {
+        // не оптимально. посмотри пример в интернете
         int[] mergedArray = IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2)).sorted().toArray();
         return mergedArray;
     }

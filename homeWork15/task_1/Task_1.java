@@ -17,6 +17,7 @@ public class Task_1 {
         greetingsResult(GREETINGS,name,language);
     }
 
+    // Result в названии скорее говорит о том, что что-то мы из метода вернем, значит, void не подходит
     static void greetingsResult (String sentenceToFormat, String enteredName, String enteredLanguage) {
         String finalString = String.format(sentenceToFormat, enteredName, enteredLanguage);
         System.out.println(finalString);
