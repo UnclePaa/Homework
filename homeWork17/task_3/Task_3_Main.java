@@ -15,8 +15,10 @@ public class Task_3_Main {
         Thread firstProducer = new Thread(putFromFirstProducer);
         Thread secondProducer = new Thread(putFromSecondProducer);
         Thread secondProducer_3 = new Thread(putFromSecondProducer);
+       
         firstProducer.start();
         secondProducer.start();
+        //secondProducer_3 - так себе название
         secondProducer_3.start();
 
         try {
