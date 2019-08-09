@@ -1,5 +1,6 @@
 package com.pickles.practice_17.task_5;
 
+// +
 public class CodeRefactor {
     public static void main(String[] args) {
         Website website = new Website("http://www.onliner.by", WebsiteType.NEWS);
