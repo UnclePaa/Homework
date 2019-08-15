@@ -2,7 +2,7 @@ package com.pickles.practice_17_2.task_2;
 
 public class Task_2_Main {
     public static void main(String[] args) {
-
+// в данном случае создавать отдельный класс для этого будет чересчур
         List_Task_2 listTask2 = new List_Task_2();
 
         listTask2.addNumberToList(2);
