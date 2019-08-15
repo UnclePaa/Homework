@@ -2,6 +2,7 @@ package com.pickles.practice_17_2.task_3;
 
 import java.util.concurrent.Callable;
 
+// CallableClass так себе название
 public class CallableClass implements Callable {
     private int defValue;
     private int num;
