@@ -8,6 +8,7 @@ public class Task_6_Main {
     Links links = new Links();
     FoldersCreator foldersCreator = new FoldersCreator();
 
+        // FileAlreadyExistsException если перезапустить программу будет. Поэтому проверяй создана уже или нет
     foldersCreator.createNewDir(Links.getFolderPath(), "1");
     foldersCreator.createNewDir(Links.getFolderPath(), "2");
     foldersCreator.createNewDir(Links.getFolderPath(), "3");
