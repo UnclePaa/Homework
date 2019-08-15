@@ -2,6 +2,7 @@ package com.pickles.practice_17_2.task_6;
 
 import java.io.File;
 
+// таска совсем небольшая, можно было в один мейн ее всю запихнуть
 public class Task_6_Main {
     public static void main(String[] args) {
     Links links = new Links();
