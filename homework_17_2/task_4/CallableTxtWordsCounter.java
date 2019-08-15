@@ -21,7 +21,8 @@ public class CallableTxtWordsCounter implements Callable {
         try (FileReader fr = new FileReader(link);
              BufferedReader br = new BufferedReader(fr)) {
             String checkLine = br.readLine();
-            String regex = "[ .,!?/]";
+            //checkLine.split("\\w")
+            String regex = "[ .,!?/]"; // такой шаблон в константу
             while (checkLine != null) {
                 String[] lineToArray = checkLine.split(regex);
                 for (String line : lineToArray) {
