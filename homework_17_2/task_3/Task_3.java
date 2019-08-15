@@ -20,9 +20,11 @@ public class Task_3 {
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
 
+        // лучше добавить в List<Future<Integer>> и затем пробежаться по нему и вызвать метод get()
         Future<Integer> result1 = executorService.submit(callable1);
         Future<Integer> result2 = executorService.submit(callable2);
 
+        // вызывается в самом конце
         executorService.shutdown();
 
         finalResult = result1.get()*result2.get();
